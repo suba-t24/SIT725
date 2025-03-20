@@ -1,0 +1,30 @@
+{
+  "name": "3.2p",
+  "version": "1.0.0",
+  "description": "Week 3 workshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suba-t24/SIT725.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Subathira Thinakaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suba-t24/SIT725/issues"
+  },
+  "homepage": "https://github.com/suba-t24/SIT725#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
