@@ -1,6 +1,6 @@
 const getProjects = () => {
     $.get('/api/projects',(response) => {
-        if(response.statusCode==200){
+        if(response.statusCode==304 || response.statusCode==200){
             addCards(response.data);
         }
     })
